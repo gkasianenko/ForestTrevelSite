@@ -1,0 +1,279 @@
+@media (max-width: 1199px) {
+    .container {
+      width: 900px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .header {
+      height: 591px;
+      padding-top: 47px;
+    }
+  
+    .header-top {
+      width: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .header-text {
+      width: 900px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .header-nav-button {
+      padding-top: 6px;
+      padding-right: 3px;
+      display: inline-block;
+      background: transparent;
+      border: none;
+    }
+  
+    .header-nav-button-tours {
+      padding-top: 6px;
+      padding-right: 3px;
+      display: inline-block;
+      background: transparent;
+      border: none;
+    }
+  
+    .header-nav-list {
+      display: none;
+    }
+  
+    .header-title {
+      font-size: 52px;
+      margin-bottom: 27px;
+    }
+  
+    .header-scroll {
+      font-size: 0;
+    }
+  
+    /* main */
+  
+    .main {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+  
+    .main-row:not(:last-child) {
+      margin-bottom: 80px;
+    }
+  
+    .main-title {
+      font-size: 50px;
+      line-height: 1;
+    }
+  
+    .main-content {
+      width: 420px;
+    }
+  
+    .main-content-p {
+      font-size: 18px;
+  
+      margin-bottom: 26px;
+    }
+  
+    .main-image {
+      width: 420px;
+    }
+  
+    /* footer */
+  
+    .footer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  
+    .footer-widgets-wrapper {
+      padding-top: 10px;
+    }
+  
+    .footer-widget:not(:last-child) {
+      margin-right: 54px;
+    }
+  
+    .footer-widget-services {
+      display: none;
+    }
+  
+    .footer-widget-title {
+      margin-bottom: 20px;
+    }
+  
+    .footer-logo {
+      margin-bottom: 0px;
+    }
+  
+    .footer-logo .logo {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .footer-copyright {
+      width: 195px;
+    }
+  
+    .footer-copyright p {
+      font-size: 14px;
+    }
+  
+    /* TOURS PAGE*/
+  
+    .footer {
+      margin-top: 0px;
+    }
+  
+    .main-title-header {
+      font-size: 50px;
+    }
+  
+    .inner-page {
+      padding-bottom: 60px;
+    }
+  
+    .inner-page-tours-header {
+      margin-bottom: 40px;
+    }
+  
+    /* Cards */
+  
+    .cards-top-row img {
+      height: 240px;
+      width: 420px;
+    }
+  
+    .card-top-1 {
+      width: 420px;
+    }
+  
+    .card-top-2 {
+      width: 420px;
+    }
+  
+    .card-left-1 {
+      width: 495px;
+    }
+  
+    .card-left-2 {
+      width: 495px;
+    }
+  
+    .card-right {
+      width: 345px;
+      height: auto;
+    }
+  
+    .card-right img {
+      height: 510px;
+    }
+  
+    .card-title-wrapper {
+      height: 60px;
+    }
+  
+    .card-title {
+      font-size: 24px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    /* ARTICLE PAGE */
+  
+    .inner-page-article {
+      padding-top: 48px;
+      padding-bottom: 50px;
+    }
+  
+    .article {
+      width: 570px;
+      font-size: 18px;
+    }
+  
+    .article h1 {
+      font-size: 50px;
+      margin-bottom: 25px;
+    }
+  
+    .article h2 {
+      margin-bottom: 25px;
+      margin-top: 33px;
+    }
+  
+    .article h3 {
+      margin-bottom: 19px;
+      margin-top: 29px;
+    }
+  
+    .article h4 {
+      margin-bottom: 19px;
+      margin-top: 20px;
+    }
+  
+    .article img {
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+  
+    .inner-page-nav-article a {
+      font-size: 18px;
+    }
+  
+    /* CONTACTS PAGE */
+  
+    .inner-page-contacts {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .contacts-row {
+      flex-direction: column;
+      align-items: initial;
+    }
+  
+    .contacts-logo {
+      font-size: 30px;
+    }
+  
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
+      width: auto;
+      margin-bottom: 35px;
+    }
+  
+    .contact-block-map {
+      display: none;
+    }
+  
+    .contact-block-map-tablet {
+      display: block;
+    }
+  
+    .contacts-header {
+      margin-bottom: 46px;
+    }
+  
+    .main-title {
+      font-size: 50px;
+    }
+  
+    .contact-block-title {
+      font-size: 24px;
+      margin-bottom: 25px;
+    }
+  
+    .contact-block-body {
+      font-size: 18px;
+    }
+  
+    .contact-block + .contact-block {
+      margin-top: 0px;
+    }
+  
+    .form {
+      width: auto;
+    }
+  }
+  

@@ -1,0 +1,11 @@
+<meta property="og:url" content="https://webcademy.ru/test/forest-travel/main.html" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Туристическое агентство Форест Тревел" />
+<meta
+    property="og:description"
+    content="Турпоходы по дикой природе"
+/>
+<meta
+    property="og:image"
+    content="https://webcademy.ru/test/forest-travel/img/opengraph.jpg"
+/>

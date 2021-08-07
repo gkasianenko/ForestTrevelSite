@@ -1,0 +1,53 @@
+/* Radio checkboxes */
+
+.radio-row:not(:last-child) {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .custom-radio {
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    align-items: flex-start;
+    width: 20px;
+    height: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #c0c0c0;
+    border-radius: 50%;
+    vertical-align: text-top;
+    margin-right: 15px;
+  }
+  
+  .custom-radio::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #2ab698;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.2s ease-in;
+  }
+  
+  .real-radio {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    appearance: none;
+  }
+  
+  .real-radio:focus + .custom-radio {
+    outline: none;
+    border: 2px solid #0ac883;
+    box-shadow: 0px 0px 10px 0 rgba(51, 148, 112, 0.5);
+  }
+  
+  .real-radio:checked + .custom-radio::before {
+    transform: translate(-50%, -50%) scale(1);
+  }
